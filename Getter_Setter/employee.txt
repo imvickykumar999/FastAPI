@@ -1,0 +1,27 @@
+C:\Users\Vicky\Desktop\Repository\FastAPI\Getter_Setter>python
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Warning:
+This Python interpreter is in a conda environment, but the environment has
+not been activated.  Libraries may fail to load.  To activate this environment
+please see https://conda.io/activation
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from employee import Employee
+>>> john = Employee("John", "2001-02-07")
+>>> john.name
+'JOHN'
+>>> john.birth_date
+datetime.date(2001, 2, 7)
+>>> john.name = "John Doe"
+>>> john.name
+'JOHN DOE'
+>>> vicky = Employee("Vicky", "1999-04-08")
+>>> vicky.name
+'VICKY'
+>>> vicky.name = "Vicky Kumar"
+>>> vicky.name
+'VICKY KUMAR'
+>>> vicky.birth_date
+datetime.date(1999, 4, 8)
+>>> ^Z

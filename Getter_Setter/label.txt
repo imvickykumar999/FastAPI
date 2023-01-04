@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.22623.1037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vicky\Desktop\Repository\FastAPI>python
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Warning:
+This Python interpreter is in a conda environment, but the environment has
+not been activated.  Libraries may fail to load.  To activate this environment
+please see https://conda.io/activation
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from Getter_Setter.label import Label
+>>> label = Label("Fruits", "JetBrains Mono NL")
+>>> label.get_text()
+'Fruits'
+>>> label.set_text("Vegetable")
+>>> label.get_text()
+'Vegetable'
+>>> label.get_font()
+'JetBrains Mono NL'
+>>> label.set_font("JetBrains Mono ML")
+>>> label.get_font()
+'JetBrains Mono ML'
+>>>
